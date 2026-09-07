@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Ficha - RN Fisioterapia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="painel-body">
+
+<div class="cabecalho-ficha">
+
+    <div>
+        <h1>RN FISIOTERAPIA</h1>
+        <span>Ficha de Avaliação e Reavaliação • Pilates</span>
+    </div>
+
+</div>
+
+<!-- ===================== DADOS ===================== -->
+
+<section class="card">
+
+<h2>📋 DADOS DO ALUNO</h2>
+
+<div class="campo-full">
+    <label>Dias e Horários</label>
+    <input type="text">
+</div>
+
+<div class="ficha-grid">
+
+    <div class="campo">
+        <label>Nome</label>
+        <input type="text">
+    </div>
+
+    <div class="campo">
+        <label>Data Nasc.</label>
+        <input type="date">
+    </div>
+
+    <div class="campo">
+        <label>Idade</label>
+        <input type="number">
+    </div>
+
+    <div class="campo">
+        <label>Telefone</label>
+        <input type="text">
+    </div>
+
+</div>
+
+<div class="campo-full">
+    <label>Endereço</label>
+    <input type="text">
+</div>
+
+<div class="campo-full">
+    <label>Objetivo</label>
+    <input type="text">
+</div>
+
+</section>
+
+<!-- ===================== ANAMNESE ===================== -->
+
+<section class="card">
+
+<h2>❤️ ANAMNESE</h2>
+
+<div class="campo">
+    <label>Queixa principal</label>
+    <textarea></textarea>
+</div>
+
+<div class="campo">
+    <label>Histórico clínico</label>
+    <textarea></textarea>
+</div>
+
+<h3>Condições</h3>
+
+<div class="checkbox-grid">
+
+    <label><input type="checkbox"> HAS</label>
+    <label><input type="checkbox"> Diabetes</label>
+    <label><input type="checkbox"> Cardiopatia</label>
+    <label><input type="checkbox"> Respiratório</label>
+    <label><input type="checkbox"> Neurológico</label>
+    <label><input type="checkbox"> Fratura/Cirurgia</label>
+
+</div>
+
+<div class="campo">
+    <label>Detalhe fratura/cirurgia</label>
+    <input type="text">
+</div>
+
+<div class="ficha-grid">
+
+    <div class="campo">
+        <label>Dor</label>
+        <input type="text">
+    </div>
+
+    <div class="campo">
+        <label>Escala (0-10)</label>
+        <input type="number" min="0" max="10">
+    </div>
+
+</div>
+
+<div class="ficha-grid">
+
+    <div class="campo">
+        <label>Medicações</label>
+        <input type="text">
+    </div>
+
+    <div class="campo">
+        <label>Alergias</label>
+        <input type="text">
+    </div>
+
+</div>
+
+</section>
+
+<!-- ===================== AVALIAÇÃO INICIAL ===================== -->
+
+<section class="card">
+
+<h2>📅 AVALIAÇÃO INICIAL</h2>
+
+<div class="campo">
+    <label>Data</label>
+    <input type="date">
+</div>
+
+</section>
+
+<!-- ===================== AVALIAÇÃO FÍSICA ===================== -->
+
+<section class="card">
+
+<h2>💪 AVALIAÇÃO FÍSICA</h2>
+
+<div class="ficha-grid">
+
+    <div class="campo">
+        <label>Peso (kg)</label>
+        <input type="number">
+    </div>
+
+    <div class="campo">
+        <label>Altura (m)</label>
+        <input type="number" step="0.01">
+    </div>
+
+    <div class="campo">
+        <label>IMC</label>
+        <input type="text">
+    </div>
+
+    <div class="campo">
+        <label>Circunf. abdominal</label>
+        <input type="number">
+    </div>
+
+    <div class="campo">
+        <label>Circunf. torácica</label>
+        <input type="number">
+    </div>
+
+</div>
+
+</section>
+
+<!-- ===================== POSTURA ===================== -->
+
+<section class="card">
+
+<h2>🦴 POSTURA</h2>
+
+<div class="ficha-grid">
+
+    <div class="campo">
+        <label>Cabeça</label>
+        <select>
+            <option>Alinhada</option>
+            <option>Protraída</option>
+            <option>Inclinada</option>
+        </select>
+    </div>
+
+    <div class="campo">
+        <label>Coluna</label>
+        <select>
+            <option>Reta</option>
+            <option>Hipercifose</option>
+            <option>Hiperlordose</option>
+            <option>Escoliose</option>
+        </select>
+    </div>
+
+</div>
+
+<div class="campo-full">
+    <label>MMSS</label>
+    <input type="text">
+</div>
+
+<div class="campo-full">
+    <label>MMII</label>
+    <input type="text">
+</div>
+
+</section>
+
+<!-- ===================== RESPIRATÓRIA ===================== -->
+
+<section class="card">
+
+<h2>🫁 FUNÇÃO RESPIRATÓRIA</h2>
+
+<div class="ficha-grid">
+
+    <div class="campo">
+        <label>Tipo</label>
+        <select>
+            <option>Torácica</option>
+            <option>Diafragmática</option>
+            <option>Mista</option>
+        </select>
+    </div>
+
+    <div class="campo">
+        <label>Amplitude</label>
+        <select>
+            <option>Preservada</option>
+            <option>Reduzida</option>
+        </select>
+    </div>
+
+</div>
+
+</section>
+
+<!-- ===================== FUNCIONAL ===================== -->
+
+<section class="card">
+
+<h2>🏃 AVALIAÇÃO FUNCIONAL</h2>
+
+<div class="ficha-grid">
+
+    <div class="campo">
+        <label>Movimento</label>
+        <input type="text">
+    </div>
+
+    <div class="campo">
+        <label>Força</label>
+        <input type="text">
+    </div>
+
+    <div class="campo">
+        <label>Equilíbrio</label>
+        <input type="text">
+    </div>
+
+</div>
+
+<div class="campo-full">
+    <label>Diagnóstico funcional</label>
+    <textarea></textarea>
+</div>
+
+</section>
+
+<!-- ===================== PLANO ===================== -->
+
+<section class="card">
+
+<h2>🎯 PLANO DE TRABALHO</h2>
+
+<div class="campo-full">
+    <textarea></textarea>
+</div>
+
+</section>
+
+<!-- ===================== REAVALIAÇÕES ===================== -->
+
+<section class="card">
+
+<h2>📈 REAVALIAÇÕES</h2>
+
+<div class="ficha-grid">
+
+    <div class="campo">
+        <label>Mês 1 - Data</label>
+        <input type="date">
+    </div>
+
+</div>
+
+<div class="campo-full">
+    <label>Evolução</label>
+    <textarea></textarea>
+</div>
+
+<div class="campo-full">
+    <label>Alterações</label>
+    <textarea></textarea>
+</div>
+
+<div class="campo-full">
+    <label>Ajustes</label>
+    <textarea></textarea>
+</div>
+
+<div class="campo-full">
+    <label>Observações</label>
+    <textarea></textarea>
+</div>
+
+</section>
+
+</body>
+</html>
